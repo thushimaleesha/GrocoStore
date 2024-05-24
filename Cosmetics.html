@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groco store</title>
+    <link rel="stylesheet" href="./css/Cosmetics.css">
+    
+
+
+
+    <!---Font awesome links for Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  <!---Font awesome links for Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../html files/responsivecustomerreview.css">
+
+
+   
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav id="top">
+        <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico"></a>
+        <section class="nav-links" id="navLinks">
+          <!---close icon for closing menubar and hide the Menu Bar in Mobile  Version -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Aboutus.html">About Us</a></li>
+            <li><a href="./vegetable.html">Vegetable Items</a></li>
+            <li><a href="./Dairy.html">Dairy Items</a></li>
+            <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+            <li><a href="./order.html">Order Page</a></li>
+            <li><a href="./Loyalty.html">Registration Page</a></li>
+        </ul>
+  
+        </section>
+  
+   <!---hamburger icon  and open the Menu Bar in Mobile  Version -->
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      
+    </nav>
+    <!--nav end-->
+
+<!---javascript for menubar ,for open the menubar and for close the menubar when we clicking the hamburger icon and closing icon-->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+   
+   function showMenu(){
+     navLinks.style.right = "0";
+  
+  }
+  
+  function hideMenu(){
+     navLinks.style.right = "-200px";
+     
+  }
+  </script>
+
+
+
+
+
+
+
+
+<br>
+<main>
+
+    <section id="Skincare">
+        <div class="Skincare-heading">
+            <h3>Cosmetics & Skincare</h3>
+        </div>
+    </section>
+    
+    <!--Cosmetic product banner-->
+    <section id="Cosmatic-banner">
+    </section>
+<br>
+
+<div class="Cosmatics">
+<p>Cosmetics and skin care items are essential products that cater to the daily beauty and personal care needs of you. In a our market setting, these items encompass a wide range of products designed to enhance appearance and maintain healthy skin. </p>
+</div>
+
+<!--Cosmetic procucts arranged using a table-->
+<table>
+    <tbody class="table">
+        <tr class="table-row">
+            <td class="products">
+                
+                <div class="table-product">
+                    <img class="item" src="./images/rose powder.jpg" width="300px" height="300px" alt="rose powder" >
+                    <p>Lakmee Rose Powder</p>
+                    <p>Rs. 1250</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+                </div>
+            </td>
+
+            <td class="products">
+                <div class="table-product">
+                    <img class="item" src="./images/perfume.jpg"  width="300px" height="300px" alt="perfume">
+                    <p>Dior Perfume</p>
+                    <p>Rs. 3850</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+                </div>
+            </td>
+
+            <td class="products">
+                <div class="table-product">
+                    <img class="item" src="./images/lips tick.webp"width="300px" height="300px" alt="lips tick">
+                    <p>RENEE Mat Lipstick</p>
+                    <p> Rs. 890</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+                </div>
+            </td>
+
+            <td class="products">
+                <div class="table-product">
+                    <img class="item" src="./images/eye shadow.jpg"width="300px" height="300px" alt="eye shadow">
+                    <p>Eye Shadow Palette</p>
+                    <p>Rs. 760</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+                </div>
+            </td>
+         </tr>
+
+        <tr class="table-row">
+            <td class="product">
+                <div class="table-product">
+                    <img class="item" src="./images/face wsh.jpg"width="300px" height="300px"alt="face wash">
+                    <p>Ponds Face Wash</p>
+                    <p>Rs. 520</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+
+                </div>
+            </td>
+
+            <td class="product">
+                <div class="table-product">
+                    <img class="item" src="./images/men shampoo.jpg"width="300px" height="300px"alt="shampoo">
+                    <p>Clear Men Shampoo</p>
+                    <p>Rs. 450</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+
+                </div>
+            </td>
+
+            <td class="product">
+                <div  class="table-product">
+                    <img class="item" src="./images/lip balm.webp"width="300px" height="300px" alt="lip balm">
+                    <p>Lip Balm</p>
+                    <p>Rs. 260</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+
+                </div>
+            </td>
+
+            <td class="product">
+                <div class="table-product">
+                    <img class="item" src="./images/scrub.webp"width="300px" height="300px" alt="scrub">
+                    <p>Janet Facial Scrub</p>
+                    <p>Rs. 1100</p>
+                    <a href="./order.html" class="cart-btn">Order Now></a>
+
+                </div>
+            
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<!--About Skincare & cosmetics-->
+<div class="about">
+    <h3>Cosmetics</h3>
+        <p>Cosmetics include a variety of products aimed at beautifying and improving the look of facial features and overall appearance. Key products in our store typically include:</p>
+    <ul>
+        <li> Makeup:  foundation, concealer, blush, eyeshadow, mascara, eyeliner, and lip products.</li>
+        <li> Nail Care: Nail polishes, removers, and nail care tools.</li>
+        <li> Hair Styling: Hair sprays, gels, mousses, and colorants.</li>
+    </ul>
+       
+       
+       
+    <h3>Skin Care</h3>
+    <p>Skin care products are designed to support skin health, address specific skin concerns, and enhance the skin's appearance. Essential products in our store often include:</p>
+    <ul>
+
+        <li>Cleansers: face washes, cleansing oils, and micellar waters </li>
+        <li>Moisturizers: Creams, lotions, and gels that hydrate and protect the skin.</li>
+        <li>Treatments: Serums, masks, and exfoliants targeting specific issues such as acne, aging, or hyperpigmentation.</li>
+        <li>Sunscreens: Products that provide protection against harmful UV rays, preventing sunburn and long-term skin damage.</li>
+    </ul>
+    
+    </div>
+</main>
+
+   <!--Footer-->
+   <footer class="footer" >
+    <section class="conatainer">
+      <section class="row">
+        <section class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Grocery</a></li>
+            <li><a href="#">Island Wide</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Follow Us</h4>
+  
+          <ul class="socialmedia">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </section>
+  
+      </section>
+    </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  </footer>
+  
+  
+  
+  
+</body>
+</html>
+
+    

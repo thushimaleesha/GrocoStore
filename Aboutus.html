@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <!---Font awesome links for Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../html files/responsivecustomerreview.css">
+
+
+    <link rel="stylesheet" href="./css/Aboutus.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Navigation-->
+
+    <nav id="top">
+        <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico"></a>
+        <section class="nav-links" id="navLinks">
+          <!---close icon for closing menubar and hide the Menu Bar in Mobile  Version -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Aboutus.html">About Us</a></li>
+          <li><a href="./vegetable.html">Vegetable Items</a></li>
+          <li><a href="./Dairy.html">Dairy Items</a></li>
+          <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+          <li><a href="./order.html">Order Page</a></li>
+          <li><a href="./Loyalty.html">Registration Page</a></li>
+        </ul>
+  
+        </section>
+  
+   <!---hamburger icon  and open the Menu Bar in Mobile  Version -->
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      
+    </nav>
+
+    <!---javascript for menubar ,for open the menubar and for close the menubar when we clicking the hamburger icon and closing icon-->
+
+ <script>
+
+    var navLinks = document.getElementById("navLinks");
+   
+   function showMenu(){
+     navLinks.style.right = "0";
+  
+  }
+  
+  function hideMenu(){
+     navLinks.style.right = "-200px";
+     
+  }
+  </script>
+  
+
+<main>
+
+    <!--Aboutus-banner-->
+    <section id="Aboutus-banner">
+    </section>
+
+    <section id="About-us">
+        <div class="Aboutus-heading">
+            <h3>About Us</h3>
+        
+
+    <p>
+        Founded in 2010 by a single entrepreneur, GROCO has over the past 10 years grown exponentially to capture a wide area in srilanka. The company has its main branch located in Colombo and others are in Kandy,Matara & Nuwara Eliya.This provides our customers with a world class retail experience.</p>
+    <p> If you are looking for farm fresh fruits and vegetables, world-class breads, top-quality pulses and food grains, dairy products, then, GROCO has got you covered. No more getting stuck in traffic jams, paying for parking, standing in long queues and carrying heavy bags- get everything you need, when you need, right at your doorstep.
+        Right from fresh fruits and vegetables, rice and dals, spices and seasonings to packaged products-we have it all. Choose from a wide range of options in every category, exclusively handpicked to help you find the best quality available at lowest prices.
+    </p>
+</div>
+    </section>
+    
+
+    <!--Groco Branches-->
+    <section id="About-us .branches">
+        <div class="branches-heading">
+            <h3>Our Branches</h3>
+        </div>
+
+        
+        <div class="cover">
+            <div class="box">
+                <img src="./images/colombo.jpg" alt="Colombo Shop" width="300px" height="300px" >
+                <h2>Groco Colombo</h2>
+                <p>Our Groco main branch is located in No.256 Sangaraja Mawatha Colombo</p>
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.635989633369!2d79.86291287475717!3d6.934036493065925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25904f2e57523%3A0x386953383de6a853!2sNO%20256%2CSRI%20SANGARAJA%20MAWATHA%2CCOLOMBO10.!5e0!3m2!1sen!2slk!4v1715883460403!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="./images/matara.jpg" alt="Matara shop" width="300px" height="300px">
+                <h2>Groco Matara</h2>
+                <p>Groco Matara is located in Matara-Hakmana Road</p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6396.459489947701!2d80.59444224046185!3d6.020991231693582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae14621a68df769%3A0x1aff20a83b175df6!2sMatara-Hakmana%20Rd!5e0!3m2!1sen!2slk!4v1715885591684!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                    
+            </div>
+
+            <div class="box">
+                <img src="./images/nuwaraeliya.jpg" alt="NuwaraEliya Shop" width="300px" height="300px" >
+                <h2>Groco NuwaraEliya</h2>
+                <p>Groco NuwaraEliya is located in Hill Street Main Road</p>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.275738736559!2d80.7668449!3d6.976757600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3804b40bc8b3d%3A0x9610c66d33f6a019!2sHill%20St%2C%20Nuwara%20Eliya%2022200!5e0!3m2!1sen!2slk!4v1715885762286!5m2!1sen!2slk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        
+                    
+            </div>
+        </div>
+    </section>
+
+    <!--Our services-->
+    <h2 class="services">Our Services</h2>
+
+    <table class="tbody">
+    <tr class="table-head">
+        <th>Services</th>
+        <th>Products</th>
+        <th>Introduction</th>
+    </tr>
+
+    <tr class="table-product">
+        <td>Gift Packs</td>
+        <td>
+            <ul>
+            <li>Hampers</li>
+            <li>Flowers</li>
+            <li>Cards</li>
+            <li>customised gift boxes</li>
+        </ul>
+        </td>
+        <td>
+            <p>Go on why not select a gift from our shop to delight your near and dear</p>
+        </td>
+    </tr>
+
+    <tr class="table-product">
+        <td>Party Planning</td>
+        <td>
+        <p>
+            <ul>
+                <li>Decorations</li>
+                <li>Cakes</li>
+                <li>Backed items</li>
+                <li>customised Menu</li>
+            </ul>
+        </p>
+        </td>
+        <td><p>Enjoy your special days with us.</p></td>
+ 
+
+    </tr>
+
+    <tr class="table-product">
+        <td>Catering</td>
+        <td>
+        <p>
+            <ul>
+                <li>Decorations</li>
+                <li>Cakes</li>
+                <li>Backed items</li>
+                <li>customised Menu</li>
+
+            </ul>
+        </p>
+        </td>
+        <td><p>This brings flavor to gatherings,turning events into memorable experiences.</p></td>
+ 
+
+    </tr>
+
+    
+    <tr class="table-product">
+        <td>Delivery</td>
+        <td>
+        <p>
+            <ul>
+                <li>Grocery items</li>
+                <li>Gift Packs</li>
+                <li>Flowers</li>
+            </ul>
+        </p>
+        </td>
+        <td><p>Delivery services ensure convenience and efficiency,bringing goods right to your doorstep.</p></td>
+ 
+
+    </tr>
+
+</table>
+
+</main>
+   
+
+
+
+
+
+    <!--Footer-->
+    <footer class="footer" style="margin-top: 10px;">
+        <section class="conatainer">
+          <section class="row">
+            <section class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Order Status</a></li>
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Grocery</a></li>
+                <li><a href="#">Island Wide</a></li>
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Follow Us</h4>
+      
+              <ul class="socialmedia">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </section>
+      
+          </section>
+        </section>
+      
+      
+      
+      
+      
+      
+      
+      
+      </footer>
+      
+
+    
+</body>
+</html>

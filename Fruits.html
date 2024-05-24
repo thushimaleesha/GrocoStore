@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="stylesheet" href="./css/Fruits.css"> 
+
+    <!---font awesome for icons-->
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  
+    
+
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <nav >
+        <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico" alt="logo image"></a>
+        <section class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Aboutus.html">About Us</a></li>
+          <li><a href="./vegetable.html">Vegetable Items</a></li>
+          <li><a href="./Dairy.html">Dairy Items</a></li>
+          <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+          <li><a href="./order.html">Order Page</a></li>
+          <li><a href="./Loyalty.html">Registration Page</a></li>
+        </ul>
+  
+        </section>
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <script>
+
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+         navLinks.style.right = "0";
+      
+      }
+      
+      function hideMenu(){
+         navLinks.style.right = "-200px";
+         
+      }
+      </script>
+
+
+
+<section id="popular-products">
+        <div class="product-heading">
+            <h2>Fruits</h2>
+        </div>
+    
+        <div class="product-container">
+            <div class="product-box">
+                <img src="./images/banana.jpeg" alt="Banana" width="300px" height="300px">
+                <strong>Banana</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 350</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/Orange.jpg" alt="Orange" width="300px" height="300px">
+                <strong>Orange</strong>
+                <span class="quantity">1 kg</span>
+                <span class="price">Rs 450</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/pomegranate.jpg" alt="pomegranate" width="300px" height="300px">
+                <strong>Pomegranate</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 650</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/kiwi.webp" alt="kiwi fruit" width="300px" height="300px">
+                <strong>Kiwi Fruit</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 250</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/grapes.jpeg" alt="grapes" width="300px" height="300px">
+                <strong>Grapes</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 900</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/strawberry.jpg" alt="strawberry" width="300px" height="300px">
+                <strong>Strawberry</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 850</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/mango.jpeg" alt="mango" width="300px" height="300px">
+                <strong>Mango</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 400</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+        
+                <a href="./order.html" class="cart-btn">
+                     <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/Mangosteen.jpg" alt="Mangosteen" width="300px" height="300px">
+                <strong>Mangosteen</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 7000</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            
+                <a href="./order.html" class="cart-btn">
+                     <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+        
+    
+                
+            
+        </div>
+    
+    
+    </section>
+
+    <!--footer-->
+    <footer class="footer" style="margin-top: 20px;">
+        <section class="conatainer">
+          <section class="row">
+            <section class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                <li><a href="./aboutuspage.html">About Us</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Order Status</a></li>
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Services</h4>
+              <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Grocery</a></li>
+                <li><a href="#">island Wide</a></li>
+              </ul>
+            </section>
+            <section class="footer-col">
+              <h4>Follow Us</h4>
+      
+              <ul class="socialmedia">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+            </section>
+      
+          </section>
+        </section>
+      
+      
+      </footer>
+    
+</body>
+</html>

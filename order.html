@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+
+    <link rel="stylesheet" href="./css/order.css">
+
+    <!---font awesome for icons-->
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  
+    
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--Navigation-->
+<header>
+    <nav id="top">
+        <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico" alt="logo image"></a>
+        <section class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./Aboutus.html">About Us</a></li>
+          <li><a href="./vegetable.html">Vegetable Items</a></li>
+          <li><a href="./Dairy.html">Dairy Items</a></li>
+          <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+          <li><a href="./order.html">Order Page</a></li>
+          <li><a href="./Loyalty.html">Registration Page</a></li>
+        </ul>
+  
+        </section>
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </header>
+    <!-- nav end-->
+
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+         navLinks.style.right = "0";
+      
+      }
+      
+      function hideMenu(){
+         navLinks.style.right = "-200px";
+         
+      }
+      </script>
+      
+
+
+   <div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/buy1.jpg" alt="Item 1" width="180px" height="180px">
+                    <div>
+                        <p>Fresh Apple</p>
+                        <small>Price: 150</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                     
+           
+            <!--<td>Product name</td>-->
+            <td><input type="number" value="1"></td>
+            <td>Rs. 150</td>
+
+           
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/buy4.jpg" alt="Item 1" width="180px" height="180px">
+                    <div>
+                        <p>Dairy Milk Chocolate</p>
+                        <small>Price: 1150</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                     
+           
+            <!--<td>Product name</td>-->
+            <td><input type="number" value="1"></td>
+            <td>Rs. 1150</td>
+
+           
+        </tr>
+
+        <tr>
+            <td>
+                <div class="cart-info">
+                    <img src="./images/buy6.webp" alt="Item 1" width="180px" height="180px">
+                    <div>
+                        <p>Diora Foundation</p>
+                        <small>Price: 3500</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                </div>
+                     
+           
+            <!--<td>Product name</td>-->
+            <td><input type="number" value="1"></td>
+            <td>Rs. 3500</td>
+
+           
+        </tr>
+
+
+            
+        
+    </table>
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Subtotal</td>
+                <td>Rs. 4800</td>
+            </tr>
+
+            <tr>
+                <td>Delivery</td>
+                <td>Rs. 250</td>
+            </tr>
+
+            <tr>
+                <td>Total</td>
+                <td>Rs. 5050</td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+<section>
+    <div class="card">
+        <form class="payment-form">
+            <div class="card-body">
+                <div class="billing-info">
+                    <h1 class="section-title">Billing Address</h1>
+                    <div class="box">
+                        <labal class="labal" for="fullName">Full Name</labal>
+                        <input type="text" name="fullName" id="FullName" placeholder="Enter your Full Name" class="input" required>
+                    </div>
+                </div>
+                <div class="box">
+                    <labal class="labal" for="email">Email</labal>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email" class="input" required>
+                </div>
+                <div class="box">
+                    <labal class="labal" for="Address">Address</labal>
+                    <input type="text" name="address" id="address" placeholder="Enter your Address" class="input" required>
+                </div>
+                <div class="box">
+                    <labal class="labal" for="city">City</labal>
+                    <input type="text" name="city" id="city" placeholder="Enter your City" class="input" required>
+                </div>
+                <div class="grid">
+                    <div class="box">
+                        <labal class="labal" for="state">State</labal>
+                        <input type="text" name="state" id="state" placeholder="Enter your State" class="input" required>
+                    </div>
+                    <div class="box">
+                        <labal class="labal" for="zip">Zip Code</labal>
+                        <input type="text" name="zip" id="zip" placeholder="Enter your Zip code" class="input" required>
+                    </div>
+                   
+                </div>
+                <div class="payment info">
+                    <h1 class="section-title">Payment</h1>
+                    <div class="box">
+                        <label class="label">Accepted Cards</label>
+                        <img src="./images/credit crd.jpg"  class="img-cards" alt="payment methods">
+                    </div>
+                    <div class="box">
+                        <labal class="labal" for="cardname">Name On Card</labal>
+                        <input type="text" name="cardname" id="cardname" placeholder="Enter your Card Name" class="input" required>
+                    </div>
+                    <div class="box">
+                        <labal class="labal" for="cardnumber">Card Number</labal>
+                        <input type="text" name="cardnumber" id="cardnumber" placeholder="Enter your Card Number" class="input" required>
+                    </div>
+                    <div class="box">
+                        <labal class="labal" for="expmonth">Exp. Month</labal>
+                        <input type="text" name="expmonth" id="expmonth" placeholder=" Month" class="input" required>
+                    </div>
+                    <div class="grid">
+                        <div class="box">
+                            <labal class="labal" for="expyear">Exp. Year</labal>
+                            <input type="text" name="expyear" id="expyear" placeholder=" Year" class="input" required>
+                        </div>
+                        <div class="box">
+                            <labal class="labal" for="cvv">CVV</labal>
+                            <input type="text" name="cvv" id="cvv" placeholder=" cvv num" class="input" required>
+                        </div>
+                        
+                        
+                    </div>
+
+
+
+                </div>
+            </div>
+            <button class="button">Pay Now</button>
+        </form>
+    </div>
+</section>
+<br>
+
+
+
+   
+</main>
+
+<!--Footer-->
+<footer class="footer" style="margin-top: 20px;">
+    <section class="conatainer">
+      <section class="row">
+        <section class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="./aboutuspage.html">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Party</a></li>
+            <li><a href="#">Event Planning</a></li>
+            <li><a href="#">fast Delievery</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Follow Us</h4>
+  
+          <ul class="socialmedia">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </section>
+  
+      </section>
+    </section>
+  
+  
+  </footer>
+  
+
+</body>
+</html>

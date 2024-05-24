@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groco store</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+   <!--Using Fav Icons-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+
+<!--fontawsome for menu icons-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+
+
+
+
+
+</head>
+<body>
+    <nav >
+      <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico" alt="logo image"></a>
+      <section class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+       <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./Aboutus.html">About Us</a></li>
+        <li><a href="./vegetable.html">Vegetable Items</a></li>
+        <li><a href="./Dairy.html">Dairy Items</a></li>
+        <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+        <li><a href="./order.html">Order Page</a></li>
+        <li><a href="./Loyalty.html">Registration Page</a></li>
+      </ul>
+
+      </section>
+    
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+         navLinks.style.right = "0";
+      
+      }
+      
+      function hideMenu(){
+         navLinks.style.right = "-200px";
+         
+      }
+      </script>
+
+    
+    
+
+
+
+
+
+
+
+
+    <main>
+
+    <!--Search-banner-->
+    <section id="search-banner">
+        
+    <!--Search Box-->
+    <form action="" class="search-box">
+
+        <!--icon------>
+        <i class="fas fa-search"></i>
+
+        <!--input----->
+        <input type="text" class="search-input" placeholder="Search" name="search" size = "80px" required>
+
+        <!--btn------->
+        <input type="submit" class="search-btn" value="Search">
+
+    </form>
+    </section>
+<!--Cagegory Section Start-->
+<section id="Categories">
+        <div class="Category-heading">
+            <h2>Shop by Categories</h2>
+        </div>
+    
+        <div class="product-container">
+            <div class="product-box">
+                <img src="./images/fruits2.webp" alt="fruits" width="300px" height="300px">
+                <strong>Fruits</strong>
+                <a href="./Fruits.html" class="cart-btn"> shop now></a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/vegetables.webp" alt="vegetables" width="300px" height="300px">
+                <strong>Vegetables</strong>
+                <a href="./vegetable.html" class="cart-btn"> shop now></a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/dairy pro.jpg" alt="dairy products" width="300px" height="300px">
+                <strong>Dairy Products</strong>
+                <a href="./Dairy.html" class="cart-btn"> shop now></a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/scincare.jpg" alt="Cosmetics" width="300px" height="300px">
+                <strong>Skincare & Cosmetics</strong>
+                <a href="./Cosmetics.html" class="cart-btn"> shop now></a>
+            </div>
+        </div>
+</section>
+
+<!--Category Section End-->
+
+<!--Best Sellers Section-->
+<section id="BestSellers">
+    <div class="Category-heading">
+        <h2>Best Sellers</h2>
+    </div>
+
+    <div class="product-container">
+        <div class="product-box">
+            <img src="./images/chocolate.jpeg" alt="chocolate" width="300px" height="300px">
+            <strong>Revello Chocolate</strong>
+            <strong>Rs. 550</strong>
+            <a href="./order.html" class="cart-btn"> Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/wafersticks.webp" alt="biscut" width="300px" height="300px">
+            <strong>Wafer Sticks</strong>
+            <strong>Rs. 380</strong>
+            <a href="./order.html" class="cart-btn"> Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/stw pack.jpg" alt="freh strawberries" width="300px" height="300px">
+            <strong>Fresh Strawberries</strong>
+            <strong>Rs. 850</strong>
+            <a href="./order.html" class="cart-btn">Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/popcorn.png" alt="popcorn" width="300px" height="300px">
+            <strong>Sweet Popcorn</strong>
+            <strong>Rs. 200</strong>
+            <a href="./order.html" class="cart-btn"> Order Now></a>
+        </div>
+        <div class="product-box">
+            <img src="./images/cashew.png" alt="Cashews" width="300px" height="300px">
+            <strong>Hot & Spicy Cashews</strong>
+            <strong>Rs. 1180</strong>
+            <a href="./order.html" class="cart-btn">Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/soap.webp" alt="soap" width="300px" height="300px">
+            <strong>Velvet Soap</strong>
+            <strong>Rs. 120</strong>
+            <a href="./order.html" class="cart-btn">Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/icecoffee.jpg" alt="ice coffee" width="300px" height="300px">
+            <strong>Ice Coffee</strong>
+            <strong>Rs. 450</strong>
+            <a href="./order.html" class="cart-btn">Order Now></a>
+        </div>
+
+        <div class="product-box">
+            <img src="./images/washing powder.webp" alt="washing powder" width="300px" height="300px">
+            <strong>Sunlight Washing Powder</strong>
+            <strong>Rs. 260</strong>
+            <a href="./order.html" class="cart-btn"> shop now></a>
+        </div>
+    </div>
+</section>
+<!--Best Seller Section End-->
+
+<!--About GROCO-->
+<section id="about-shop">
+<div class="shop">
+<h2>About Us</h2>
+<p> Welcome to GROCO Super Market.This is the largest supermarket chamin in Sri Lanka.
+If you are looking for farm fresh fruits and vegetables, world-class breads,
+top-quality pulses and food grains, dairy products, then,GROCO has got you covered.
+Just add your Products pay and get your order to your doorstep within 24 hours.</p>
+<p> Shopping online is now easy as every product on your monthly shopping list,is now available online at Groco supermarket.</p>
+
+<img  class="image" src="./images/shop.jpg">
+</div>
+
+
+<!--Services we offer-->
+<div class="about">
+<h2>Services We provide</h2>
+<br>
+<p>Groco provide a variety of services to enhance the shopping experience and meet coustomer needs.</p>
+<br>
+<ol>
+    <li>Product Variety and Availability:</li>
+    <ul>
+        <li>Fresh Produce: A wide selection of fresh fruits and vegetables.</li>
+        <li>Dairy Products: Milk, cheese, yogurt, and other dairy items.</li>
+        <li>Meat and Seafood: Fresh and packaged meat, poultry, and seafood.</li>
+        <li>Bakery: Freshly baked bread, cakes, pastries, and other baked goods.</li>
+        <li>Cosmetic & Skincare:Personal Care items,Vitamins,and supplements</li>
+        <li>Beverages: A range of soft drinks, juices, teas, coffees, and alcoholic beverages.</li>
+    </ul>
+
+    <li class="service">Customer Service and Support:</li>
+    <ul>
+        <li>In-store Assistance: Staff to help with locating products and answering queries.</li>
+        <li>Customer Service Desk: For returns, complaints, and general assistance.</li>
+    </ul>
+
+    <li class="service">Loyalty and Rewards Programs:</li>
+    <ul>
+       <li> Membership Cards: Offering discounts and special deals for members.</li>
+       <li>Points Programs: Earn points on purchases that can be redeemed for discounts or free products.</li>
+
+    </ul>
+
+    <li class="service">Online Shopping and Digital Services:</li>
+    <ul>
+            
+        <li>E-commerce Platforms: Websites or apps to order groceries online.</li>
+        <li>Digital Coupons: Online coupons that can be used in-store or online.</li>
+
+    </ul>
+
+    <li class="service">Seasonal and Promotional Services:</li>
+        <ul>
+            <li>Holiday Specials: Special products and deals for holidays.</li>
+            <li>Promotional Events: In-store events, tastings, and product samplings.</li>
+        </ul>
+  
+
+
+</ol>
+</div>
+</section>
+
+
+
+<section class="subscribe">
+    <h3>SUBSCRIBE TO US</h3>
+<br>
+    <form action="" class="subscribe-box">
+
+        <i class="fas fa-search"></i>
+    
+        <input type="text" class="subscribe-input" placeholder="Email Adress" name="Email Adress" size = "80px" required>
+    
+        <input type="submit" class="subscribe-btn" value="SUBSCRIBE">
+        
+        
+    </form>
+<br>
+
+    <p>We're ready to work together to get your products delivered on time. Subscribe to our newsletters to receive Groco.com emails and be the first to know about exclusive offers, promotions, and more.</p>
+</section>
+
+
+</main>
+
+
+<!--Footer-->
+<footer class="footer" style="margin-top: 20px;">
+    <section class="conatainer">
+      <section class="row">
+        <section class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="./aboutuspage.html">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Grocery</a></li>
+            <li><a href="#">Island Delivery</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Follow Us</h4>
+  
+          <ul class="socialmedia">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </section>
+  
+      </section>
+    </section>
+  
+  
+  </footer>
+  
+    </body>
+    </html>

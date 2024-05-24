@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetables</title>
+    <link rel="stylesheet" href="./css/vegetable.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!---Font awesome links for Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+  
+  
+  
+  
+  <!---Font awesome links for Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="../html files/responsivecustomerreview.css">
+
+
+
+
+
+    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <nav id="top">
+        <a href="./index.html"><img   style="margin: 0px 0px 0px 10px ;"class="logo" src="./favicon.ico"></a>
+        <section class="nav-links" id="navLinks">
+          <!---close icon for closing menubar and hide the Menu Bar in Mobile  Version -->
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Aboutus.html">About Us</a></li>
+            <li><a href="./vegetable.html">Vegetable Items</a></li>
+            <li><a href="./Dairy.html">Dairy Items</a></li>
+            <li><a href="./Cosmetics.html">Cosmetic Items</a></li>
+            <li><a href="./order.html">Order Page</a></li>
+            <li><a href="./Loyalty.html">Registration Page</a></li>
+        </ul>
+  
+        </section>
+  
+   <!---hamburger icon  and open the Menu Bar in Mobile  Version -->
+      
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+      
+    </nav>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+       
+       function showMenu(){
+         navLinks.style.right = "0";
+      
+      }
+      
+      function hideMenu(){
+         navLinks.style.right = "-200px";
+         
+      }
+      </script>
+
+
+
+
+
+
+
+    <section id="popular-products">
+        <div class="product-heading">
+            <h2>Vegetables</h2>
+        </div>
+    
+        <div class="product-container">
+            <div class="product-box">
+                <img src="./images/tomato.jpg" alt="tomato" width="300px" height="300px">
+                <strong>Tomato</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 150</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/carrot.jpeg" alt="carrot" width="300px" height="300px">
+                <strong>Carrot</strong>
+                <span class="quantity">1 kg</span>
+                <span class="price">Rs 950</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/brinjal.png" alt="brinjal" width="300px" height="300px">
+                <strong>Brinjal</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 650</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/cabbage.webp" alt="cabbage" width="300px" height="300px">
+                <strong>Cabbage</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 250</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/beetroot.jpg" alt="beetroot" width="300px" height="300px">
+                <strong>Beetroot</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 350</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+    
+                
+            </div>
+    
+            <div class="product-box">
+                <img src="./images/beans.webp" alt="beans" width="300px" height="300px">
+                <strong>Beans</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 450</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+    
+                <a href="./order.html" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/Red-peppers.jpg" alt="Bell-Peppers" width="300px" height="300px">
+                <strong>Bell-Peppers</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 1050</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+        
+                <a href="./order.html" class="cart-btn">
+                     <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="./images/lettuce.jpg" alt="lettuce" width="300px" height="300px">
+                <strong>Lettuce</strong>
+                <span class="quantity">1 Kg</span>
+                <span class="price">Rs 310</span>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            
+                <a href="./order.html" class="cart-btn">
+                     <i class="fas fa-shopping-bag"></i>Add To Cart
+                </a>
+            </div>
+        
+    
+                
+            
+        </div>
+    
+    
+    </section>
+
+    <section id="Venues">
+        <div class=" Venue-heading">
+
+           
+           <p>Vegetables are a fundamental component of a healthy diet, providing essential vitamins, minerals, fiber, and antioxidants.</p>
+        </div>
+    
+        <div class="Venue1">
+            <h3>These Are the three venues where vegetables are provided for the GROCO</h3>
+
+        
+            <h3>Local Farms</h3>
+                <p>Local farms are key source of fresh, seasonal vegetables. These farms often practice sustainable and organic farming methods, which appeal to health-conscious consumers.
+                Agro,Nebula,Jackro & Ambewela are the main local frams that provides fresh vegetables for us.</p>
+                <p>We can get benifits such as,</p>
+                <ul>
+                    <li>Freshness</li>
+                    <li>Support for Local Economy</li>
+                    <li>Reduced Carbon Footprint</li>
+                </ul> 
+        
+                <img class="venuephoto" src="./images/local farm.webp" alt="local farm" >
+                
+        </div>
+
+        <div class="Venue1">
+            <h3> Wholesale Markets</h3>
+
+        
+            <p> Wholesale markets, are centralized locations where large quantities of vegetables are bought and sold. These markets connect farmers, distributors, and retailers, offering a wide variety of produce.
+                    Dambulla Economic Center is the main Wholesale market that provides fresh goods for us
+            </p>
+            <p>We can get benifits such as,</p>
+            <ul>
+                <li>Variety</li>
+                <li>Cost Efficiency</li>
+                <li>Consistency</li>
+            </ul>
+            <img class="venuephoto" src="./images/agri.jpg" alt="local farm"  >
+                
+        </div>
+
+        <div class="Venue1">
+            <h3>Agricultural Cooperatives</h3>
+                <p>Agricultural cooperatives are groups of farmers who collaborate to market and sell their produce. These cooperatives can provide a reliable and coordinated supply of vegetables to supermarkets.</p>
+                <p>We can get benifits such as,</p>
+                <ul>
+                    <li>Collective Bargaining</li>
+                    <li>Quality Control</li>
+                    <li>Traceability</li>
+                </ul>
+                <img class="venuephoto" src="./images/market1.jpg" alt="local farm" >
+                
+        </div>
+    
+    </section>
+    <!--footer-->
+    
+<footer class="footer" style="margin-top: 10px;">
+    <section class="conatainer">
+      <section class="row">
+        <section class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#">Party Planning</a></li>
+            <li><a href="#">Catering</a></li>
+            <li><a href="#">Vegetables Suppliers</a></li>
+          </ul>
+        </section>
+        <section class="footer-col">
+          <h4>Follow Us</h4>
+  
+          <ul class="socialmedia">
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul>
+        </section>
+  
+      </section>
+    </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  </footer>
+  
+    
+</body>
+</html>
