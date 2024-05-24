@@ -1,0 +1,353 @@
+
+body {
+    font-family: poppins;
+    background-color: #f4f4f4;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ce7b3c;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e2711d;
+}
+
+.loyalty-heading{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+#loyalty {
+    margin: 0 15em;
+    text-align: justify;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 2em;
+}
+
+.silver {
+    margin-top: 2em;
+}
+
+.bronze {
+    margin-top: 2em;
+}
+
+.loyalty {
+    margin-left: 3em;
+    list-style-type: circle;
+} 
+
+.loyalty-card {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    left: 500px;
+}
+
+
+/*navabr*/
+nav{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color:#e2711d;
+      height: 70px;
+    
+  }
+  
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 3px;
+    margin-left: 95px;
+    margin-top: 10px;
+    
+    
+    
+    
+  }
+  
+  .nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    
+  }
+  
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #ffffff;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 90%;
+  }
+  nav .fa{
+    display: none;
+  }
+  
+  @media (max-width:768px){
+    
+    .logo{
+      display: none;
+    }
+  
+    .nav-links ul li{
+      display: block;
+      
+  
+    }
+  
+    .nav-links{
+      position: absolute;
+      background:#e2711d;
+      height: 100vh;
+      width: 200px;
+      top: 0;
+      right: -200px;
+      text-align: left;
+      z-index:2;
+    }
+  
+    .nav-links ul li{
+      
+      margin-left: 5px;
+      
+  }
+  
+  
+  .nav-links ul li a{
+  
+    font-size: 12px;
+    
+    
+  }
+  
+    nav .fa{
+      display:block;
+      color: white;
+      margin: 5px;
+      font-size: 20px;
+      cursor: pointer;
+  }
+  
+  .nav-links ul{
+    padding: 30px;
+  }
+  
+  
+  
+  .nav-links ul li{
+    
+    margin-left: 5px;
+   
+  }
+  
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    #loyalty{
+        margin: 0 5em;
+        width: 500px;
+    }
+
+    .loyalty-card {
+        position: initial;
+        margin-left: 0;
+        width: 400px;
+        margin-top: 5em;
+    }
+
+    .container {
+        margin: 0 6em;
+        width: 500px
+    }
+
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer{
+    background-color: #e2711d;
+    padding: 70px 0;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+  
+  .socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+  
+  .footer-col h4{
+    font-size: 18;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  
+  .footer-col h4::before{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(252, 255, 251);
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+  }
+  
+  .footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+    display: block;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+  
+  }
+  
+  .footer-col ul li a:hover{
+    color: rgb(227, 109, 109);
+    padding-left: 6px;
+  }
+  
+  
+  
+  
+  
+  /*responsive the footer*/ 
+  @media(max-width:
+  768px){
+    .footer-col{
+      width:100%;
+      height: auto;
+      text-align: center;
+    }
+    .footer-col h4{
+      margin-top: 50px;
+      
+    }
+  
+    .footer-col h4::before{
+  
+      width: 50px;
+      margin-left: 170px;
+    }
+  
+  .icon{
+    margin-left: 60px;
+  }
+  
+  
+  .socialmedia li{
+    margin-left: 80px;
+  }
+  
+  
+  }
+  

@@ -1,0 +1,341 @@
+/*About Us CSS*/
+#Aboutus-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/About\ Gr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+.Aboutus-heading h3 {
+    text-align:center;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.Aboutus-heading p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Groco Branches*/
+
+.branches-heading {
+    text-align:left;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.cover {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.box{
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+} 
+
+/*Our Services*/
+
+.services{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 20px;
+   
+}
+
+.tbody {
+    width: 80%; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: medium;
+}
+      
+.table-head th {
+    background-color: #e2711d;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    color: #ddd;
+  
+}
+      
+.table-product td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+}
+      
+.table-product td ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.table-product td ul{
+    list-style-type: circle;
+}
+      
+.table-product td p {
+ margin: 0;
+}
+      
+
+/*nav bar */        
+      
+nav{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color:#e2711d;
+    height: 70px;
+    
+  }
+  
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 3px;
+    margin-left: 95px;
+    margin-top: 10px;
+    
+    
+    
+    
+  }
+  
+  .nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15.5px;
+    font-weight: 500;
+    
+  }
+  
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #ffffff;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 90%;
+  }
+  
+    
+/*footer*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer{
+    background-color: #e2711d;
+    padding: 70px 0;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+  
+  .socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+  
+  .footer-col h4{
+    font-size: 18;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  
+  .footer-col h4::before{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(252, 255, 251);
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+  }
+  
+  .footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+    display: block;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+  
+  }
+  
+  .footer-col ul li a:hover{
+    color: rgb(227, 109, 109);
+    padding-left: 6px;
+  }
+
+  
+
+
+    @media(max-width:768px){
+        .footer-col{
+          width:100%;
+          height: auto;
+          text-align: center;
+        }
+        .footer-col h4{
+          margin-top: 50px;
+          
+        }
+      
+        .footer-col h4::before{
+      
+          width: 50px;
+          margin-left: 170px;
+        }
+      
+      .icon{
+        margin-left: 60px;
+      }
+      
+      
+      .socialmedia li{
+        margin-left: 80px;
+      }
+      
+      /*shopping items*/
+      
+      .homepageproducts{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        padding: 0;
+        margin: 0;
+      }
+      
+      
+      
+      /*hamberger menu*/
+      
+      
+      
+      .text-box h1{
+        font-size: 55px;
+      }
+      
+      
+      
+      .logo{
+        display: none;
+      }
+      
+      .nav-links ul li{
+        display: block;
+      
+      }
+      
+      .nav-links{
+        position: absolute;
+        background:#e2711d;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index:2;
+      }
+      
+      nav .fa{
+        display:block;
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      
+      .nav-links ul{
+      padding: 30px;
+      }
+      
+
+/*banner images*/
+#Aboutus-banner{
+    width: 420px;
+    height: 550px;
+    border-radius: 10%;
+    background-position: center;
+}
+
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+    }

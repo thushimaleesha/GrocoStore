@@ -1,0 +1,372 @@
+/*Diary product section*/
+
+.product-heading {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+} 
+
+/*Dairy product-banner*/
+#Dairy-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/Dairy\ banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+
+
+.Category-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+section.product-grid {
+    display: flex;
+    flex-direction: row;
+    column-gap: 70px;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+/* end*/
+
+.product-box .price{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #393939;
+    margin-left: 50px;
+}
+
+.product-grid .cart-btn {
+    width: 80%;
+    height: 40px;
+    background-color: #fae1dd;
+    color: #e2711d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all ease 0.3s;
+}
+.product-grid .cart-btn i{
+    margin-right: 10px;
+
+}
+.product-grid .cart-btn:hover{
+    background-color: #e2711d;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+
+.Available p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Available  ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 150px;
+}
+.Available h3{
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+/*nav bar*/
+
+nav{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color:#e2711d;
+    height: 70px;
+    
+  }
+  
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 3px;
+    margin-left: 95px;
+    margin-top: 10px;
+    
+    
+    
+    
+  }
+  
+  .nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15.5px;
+    font-weight: 500;
+    
+  }
+  
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #ffffff;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 90%;
+  }
+
+  nav .fa{
+    display: none;
+  }
+
+
+  @media(max-width:768px){
+    .nav-links ul li{
+  
+        margin-left: 5px;
+       
+      }
+      
+      .nav-links ul li{
+        
+        margin-left: 5px;
+        
+    }
+    
+    
+    .nav-links ul li a{
+    
+      font-size: 12px;
+  }
+
+  #Dairy-banner{
+    width: 420px;
+    height: 550px;
+    border-radius: 10%;
+    background-position: center;
+}
+
+
+section.product-grid {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Available{
+    margin-right: 50px;
+
+}
+
+
+
+
+}
+
+
+/*footer*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer{
+    background-color: #e2711d;
+    padding: 70px 0;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+  
+  .socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+  
+  .footer-col h4{
+    font-size: 18;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  
+  .footer-col h4::before{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(252, 255, 251);
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+  }
+  
+  .footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+    display: block;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+  
+  }
+  
+  .footer-col ul li a:hover{
+    color: rgb(227, 109, 109);
+    padding-left: 6px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:768px){
+    .footer-col{
+      width:100%;
+      height: auto;
+      text-align: center;
+    }
+    .footer-col h4{
+      margin-top: 50px;
+      
+    }
+  
+    .footer-col h4::before{
+  
+      width: 50px;
+      margin-left: 170px;
+    }
+  
+  .icon{
+    margin-left: 60px;
+  }
+  
+  
+  .socialmedia li{
+    margin-left: 80px;
+  }
+
+
+
+  /*hamberger menu*/
+  
+  
+  
+  .logo{
+    display: none;
+  }
+  
+  .nav-links ul li{
+    display: block;
+  
+  }
+  
+  .nav-links{
+    position: absolute;
+    background:#e2711d;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index:2;
+  }
+  
+  nav .fa{
+    display:block;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-links ul{
+  padding: 30px;
+  }
+  
+  
+  section.product-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+

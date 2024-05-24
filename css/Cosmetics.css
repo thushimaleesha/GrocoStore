@@ -1,0 +1,397 @@
+.Skincare-heading {
+    text-align:center;
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+/*Cosmetic product-banner*/
+#Cosmatic-banner{
+    width: 1205px;
+    height: 550px;
+    border-radius: 30px;
+    background-color:#fae1dd;;
+    margin: 10px auto;
+    position: relative;
+    overflow: hidden;
+    background-image: url("../images/skin\ banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 20px;
+}
+
+.Cosmatics p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: large;
+}
+
+/*Cosmetic procucts arranged using a table*/
+.table-row{
+    display:table ;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+    font-size: medium;
+}
+.table{
+    display: table;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+    margin-left: 10%;
+}
+
+.table p{
+    margin-left: 20px;
+}
+
+.table .cart-btn{
+    width: 80%;
+    height: 40px;
+    background-color: #fae1dd;
+    color:#e2711d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 28px;
+    transition: all ease 0.3s;
+}
+.table .cart-btn i{
+    margin-right: 10px;
+
+}
+.table .cart-btn:hover{
+    background-color: #e2711d;
+    color: #ffffff;
+    transition: all ease 0.3s;
+}
+/*About Skincare & cosmetics*/
+.about h3,
+p
+{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.about ul li {
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+/*nav bar*/
+
+nav{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    background-color:#e2711d;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 70px;
+    
+  }
+  
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 3px;
+    margin-left: 95px;
+    margin-top: 10px;
+    
+    
+    
+    
+  }
+  
+  .nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15.5px;
+    font-weight: 500;
+    
+  }
+  
+  .nav-links ul li::after{
+   content: '';
+   width: 0%;
+   height: 2px;
+   background: #ffffff;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover::after{
+    width: 90%;
+  }
+
+  
+  nav .fa{
+    display: none;
+  }
+
+
+  @media(max-width:768px){
+    .nav-links ul li{
+  
+        margin-left: 5px;
+       
+      }
+      
+      .nav-links ul li{
+        
+        margin-left: 5px;
+        
+    }
+    
+    
+    .nav-links ul li a{
+    
+      font-size: 12px;
+      
+      
+    }
+
+
+/*hamberger menu*/
+
+  
+  
+  
+  .logo{
+    display: none;
+  }
+  
+  .nav-links ul li{
+    display: block;
+  
+  }
+  
+  .nav-links{
+    position: absolute;
+    background:#e2711d;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index:2;
+  }
+  
+  nav .fa{
+    display:block;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .nav-links ul{
+  padding: 30px;
+  }
+  
+  
+  .item{
+    width: 87px;
+    height: 87px;
+  }
+
+
+  .cart-btn{
+    font-size: 7px;
+  }
+
+
+  table{
+    margin-right: 20px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  /*foooter*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  
+  
+  .icon{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer{
+    background-color: #e2711d;
+    padding: 70px 0;
+    margin-top: 20px;
+  }
+  
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  
+  }
+  
+  .socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+  }
+  
+  .footer-col h4{
+    font-size: 18;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-weight: 500;
+    position: relative;
+  
+  }
+  
+  .footer-col h4::before{
+    content:'' ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(252, 255, 251);
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+  }
+  
+  .footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color:white;
+    display: block;
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+  
+  }
+  
+  .footer-col ul li a:hover{
+    color: rgb(227, 109, 109);
+    padding-left: 6px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media(max-width:768px){
+    .footer-col{
+      width:100%;
+      height: auto;
+      text-align: center;
+      
+    }
+    .footer-col h4{
+      margin-top: 50px;
+      
+    }
+  
+    .footer-col h4::before{
+  
+      width: 50px;
+      margin-left: 170px;
+    }
+  
+  .icon{
+    margin-left: 60px;
+  }
+  
+  
+  .socialmedia li{
+    margin-left: 80px;
+  }
+
+
+  #Cosmatic-banner{
+    width: 420px;
+    height: 550px;
+    border-radius: 10%;
+    background-position: center;
+}
+
+
+.tableiems{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+  }  
